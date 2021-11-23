@@ -33,8 +33,13 @@ $ docker ps -a
 $ docker rm <id>
 ```
 
-- para o contâiner
+- parar o contâiner
 ```
 $ docker stop <id> ou <name>
+```
+
+- filtrar o endereço de IP
+```
+docker inspect <name> | grep IPAddress
 ```
 
