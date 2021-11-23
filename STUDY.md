@@ -1,24 +1,40 @@
 - baixar a imagem do repositorio remoto
-> docker pull mysql
+```
+$ docker pull mysql
+```
 
 - baixar uma versão especifica
-> docker pull mysql:5.7
+```
+$ docker pull mysql:5.7
+```
 
 - vizualizar as imagens baixadas
-> docker images
+```
+$ docker images
+```
 
 - rodando a imagem
-> docker run mysql:5.7
+```
+$ docker run mysql:5.7
+```
 
 - vizualizar todos os contâiners que estão rodando
-> docker ps
+```
+$ docker ps
+```
 
 - listando todos os contâiners
-> docker ps -a
+```
+$ docker ps -a
+```
 
 - removendo contâiners
-> docker rm <id>
-  
+```
+$ docker rm <id>
+```
+
 - para o contâiner
-> docker stop <id> ou <name>
+```
+$ docker stop <id> ou <name>
+```
 
